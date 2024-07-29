@@ -54,3 +54,39 @@ Searches for all occurrences of an image within another image (haystack) and ret
 
 **Returns:**
 - List[Tuple[float, float]]: A list of tuples with the float coordinates of the centers of each found image.
+
+## `retrievePos(x: bool = True, y: bool = True, z: bool = True)`
+Retrieves the position coordinates from the screen based on a specific region and image recognition.
+
+**Parameters:**
+- `x` (bool): Whether to return the x-coordinate.
+- `y` (bool): Whether to return the y-coordinate.
+- `z` (bool): Whether to return the z-coordinate.
+
+**Returns:**
+- List[float]: A list of float values representing the x, y, and/or z coordinates.
+
+---
+
+## `retrieveAim(x: bool = True, y: bool = True)`
+Retrieves aim coordinates from the screen.
+
+**Parameters:**
+- `x` (bool): Whether to return the x-coordinate.
+- `y` (bool): Whether to return the y-coordinate.
+
+**Returns:**
+- Tuple[float] or float: A tuple containing the x and y coordinates if both are requested, or a single float if only one coordinate is requested.
+
+---
+
+## `retrieveLookingAt(x: bool = True, y: bool = True, z: bool = True)`
+Retrieves the coordinates of what the screen is currently looking at.
+
+**Parameters:**
+- `x` (bool): Whether to return the x-coordinate.
+- `y` (bool): Whether to return the y-coordinate.
+- `z` (bool): Whether to return the z-coordinate.
+
+**Returns:**
+- List[float]: A list of float values representing the x, y, and/or z coordinates, or `False` if an error occurs.
