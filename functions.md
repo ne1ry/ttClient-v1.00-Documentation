@@ -143,5 +143,5 @@ Finds and moves the aim to a specified position with a delay.
   Performs enchantments of diamond sets in Minecraft within the Craftrise client.
 
 - **`crAmeSetEnchant`**  
-  Performs enchantments of emerald sets in Minecraft within the Craftrise client.
+  Performs enchantments of amethyst sets in Minecraft within the Craftrise client.
 
