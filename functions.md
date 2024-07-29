@@ -92,3 +92,34 @@ Waits for a specified key to be pressed.
 
 **Parameters:**
 - `keybind` (str): The key to wait for.
+
+## `aimLock(x: float, y: float, z: float)`
+Locks the aim to a specified 3D position by calculating the angle and adjusting the aim accordingly.
+
+**Parameters:**
+- `x` (float): The x-coordinate to aim at.
+- `y` (float): The y-coordinate to aim at.
+- `z` (float): The z-coordinate to aim at.
+
+---
+
+## `moveAim(x, y, delay: float = 0.05)`
+Moves the aim to a specified position with a delay between movements.
+
+**Parameters:**
+- `x` (float): The x-coordinate to move to.
+- `y` (float): The y-coordinate to move to.
+- `delay` (float): The delay in seconds between movements.
+
+---
+
+## `findAim(x: float, y: float, delay: float = 0.05)`
+Finds and moves the aim to a specified position with a delay.
+
+**Parameters:**
+- `x` (float): The x-coordinate to aim at.
+- `y` (float): The y-coordinate to aim at.
+- `delay` (float): The delay in seconds between movements.
+
+**Returns:**
+- None: No return value, performs the movement.
