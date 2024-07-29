@@ -121,5 +121,27 @@ Finds and moves the aim to a specified position with a delay.
 - `y` (float): The y-coordinate to aim at.
 - `delay` (float): The delay in seconds between movements.
 
-**Returns:**
-- None: No return value, performs the movement.
+## Enchantment Functions
+
+### so Client
+
+- **`soKitapEnchant`**  
+  Performs enchantments of books in Minecraft within the Sonoyuncu client.
+
+- **`soDiaSetEnchant`**  
+  Performs enchantments of diamond sets in Minecraft within the Sonoyuncu client.
+
+- **`soTitSetEnchant`**  
+  Performs enchantments of titanium sets in Minecraft within the Sonoyuncu client.
+
+### cr Client
+
+- **`crKitapEnchant`**  
+  Performs enchantments of books in Minecraft within the Craftrise client.
+
+- **`crDiaSetEnchant`**  
+  Performs enchantments of diamond sets in Minecraft within the Craftrise client.
+
+- **`crAmeSetEnchant`**  
+  Performs enchantments of emerald sets in Minecraft within the Craftrise client.
+
